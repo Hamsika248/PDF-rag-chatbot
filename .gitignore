@@ -1,0 +1,25 @@
+# Environment variables — never commit real keys
+.env
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# FAISS index files (generated at runtime)
+*.faiss
+*.pkl
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Docker
+docker_compose.yml
